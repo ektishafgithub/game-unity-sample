@@ -75,14 +75,14 @@ public class FoeGeometryManager
         return Tuple.Create<float[], float[], int[], float[]>(
             new float[]
             {
-               -1f, -2f, -1f,
+               -1f, -2f, -0.5f,
                -1f,  1f, -0.5f,
                 1f,  1f, -0.5f,
-                1f, -2f, -1f,
-                1f, -2f,  1f,
-                1f,  1f,  1f,
-               -1f,  1f,  1f,
-               -1f, -2f,  1f,
+                1f, -2f, -0.5f,
+                1f, -2f,  0.5f,
+                1f,  1f,  0.5f,
+               -1f,  1f,  0.5f,
+               -1f, -2f,  0.5f,
             },
             new float[]
             {
@@ -210,14 +210,14 @@ public class FoeGeometryManager
         return Tuple.Create<float[], float[], int[], float[]>(
             new float[]
             {
-               -1f, -2f, -1f,
-               -1f,  1f, -1f,
-                0f,  1f, -1f,
-                0f, -2f, -1f,
-                0f, -2f,  1f,
-                0f,  1f,  1f,
-               -1f,  1f,  1f,
-               -1f, -2f,  1f,
+               -1f, -2f, -0.5f,
+               -1f,  1f, -0.5f,
+                0f,  1f, -0.5f,
+                0f, -2f, -0.5f,
+                0f, -2f,  0.5f,
+                0f,  1f,  0.5f,
+               -1f,  1f,  0.5f,
+               -1f, -2f,  0.5f,
             },
             new float[]
             {
@@ -255,14 +255,14 @@ public class FoeGeometryManager
         return Tuple.Create<float[], float[], int[], float[]>(
             new float[]
             {
-                0f, -2f, -1f,
-                0f,  1f, -1f,
-                1f,  1f, -1f,
-                1f, -2f, -1f,
-                1f, -2f,  1f,
-                1f,  1f,  1f,
-                0f,  1f,  1f,
-                0f, -2f,  1f,
+                0f, -2f, -0.5f,
+                0f,  1f, -0.5f,
+                1f,  1f, -0.5f,
+                1f, -2f, -0.5f,
+                1f, -2f,  0.5f,
+                1f,  1f,  0.5f,
+                0f,  1f,  0.5f,
+                0f, -2f,  0.5f,
             },
             new float[]
             {
